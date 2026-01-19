@@ -7,13 +7,13 @@ year: 2025
 
 ## Keynote Speakers
 
-- [Chris Adami](https://adami.natsci.msu.edu/)
+<!-- - [Chris Adami](https://adami.natsci.msu.edu/)
 - [Shubho Sengupta](https://shubho.github.io/)
-- [Richard Watson](https://www.richardawatson.com/)
+- [Richard Watson](https://www.richardawatson.com/) -->
 
 ## Attending
 
-- Michael	Affenzeller
+<!-- - Michael	Affenzeller
 - Guilherme Aldeia
 - Illya Bakurov
 - Clifford Bohm
@@ -53,12 +53,11 @@ year: 2025
 - Bill Tozier
 - Leonardo Trujillo
 - Quentin Vacher
-- Bernhard Werth
+- Bernhard Werth -->
 
 ## Organizers
 
-- [Wolfgang Banzhaf](https://www.cse.msu.edu/~banzhafw/)
-- [Bogdan Burlacu](https://heal.heuristiclab.com/team/burlacu)
-- [Stephen Kelly](http://creativealgorithms.ca/)
-- [Alexander Lalejini](https://lalejini.com)
+- [Yuri Cossich Lavinas](yurilavinas.github.io)
 - [Fabricio Olivetti de França](https://folivetti.github.io/)
+- [Anselmo Pontes]()
+
