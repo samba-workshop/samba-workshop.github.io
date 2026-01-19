@@ -2,7 +2,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <!--<title>GPTP {{page.roman}}</title>-->
-  <title>GPTP</title>
+  <title>SAMBA</title>
 
   <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
 
@@ -19,14 +19,14 @@
   <body>
     {% include header.liquid %}
     {% if page.year %}
-      {% assign year = "gptp" | append: page.year %}
+      {% assign year = "samba" | append: page.year %}
     {% else %}
       {% assign year = "default" %}
     {% endif %}
     <div class="container">
       <div class="col-sm-12">
         <h1><a href="index.html">
-          Genetic Programming Theory & Practice
+          Symbolic Regression and Machine Learning in Baixada Santista
           {% if page.roman %}
             {{ page.roman }}
           {% elsif site.data.info.workshop[year].roman %}
