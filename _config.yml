@@ -6,12 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: "Genetic Programming Theory & Practice Workshops"
-email: bill@vagueinnovation.com
+title: " Symbolic Regression and Machine Learning in Baixada Santista"
+email: yclavinas@gmail.com
 description: >
-  Support for attendees of the Annual GPTP Workshops.
+  Support for attendees of the Annual SAMBA Workshops.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gptp-workshop.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
