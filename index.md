@@ -1,20 +1,20 @@
 ---
 layout: default
-year: 2025
+year: 2026
 ---
 
-Genetic Programming Theory & Practice (GPTP) is a small, invitation-only workshop.
-This year's GPTP will be hosted by Michigan State University in East Lansing, MI on June 05-07, 2025.
+Symbolic Regression and Machine Learning in Baixada Santista (SAMBA) is a small, invitation-only workshop.
+This year's SAMBA will be hosted by University of ABC, SP on October.
 
 ### Important Dates
 
 <!-- - **May 15, 2024:** Deadline for draft versions of chapters (please use this [template](http://gptp-workshop.com/GPTPChapterTemplate2024.zip)) -->
-- **June 05-07, 2025:** Keynotes, presentations, and discussions
+<!-- - **June 05-07, 2025:** Keynotes, presentations, and discussions
 <!-- - **August 1, 2024:** Deadline for chapters (please use this [template](http://gptp-workshop.com/GPTPChapterTemplate2024.zip)) -->
 
 More important dates coming soon!
 
-### Meeting Location
+<!-- ### Meeting Location
 
 The 2025 meeting will be held on the main campus of Michigan State University in the [Interdisciplinary Science and Technology building](https://maps.app.goo.gl/gCQAdK981z6yGJwa6) on the first floor in Room 1404.
 
@@ -49,11 +49,11 @@ Additionally, a list of bed-and-breakfast inns, hotels and motels is provided. T
 
 (alphabetical order)
 
-- [Wolfgang Banzhaf](https://www.cse.msu.edu/~banzhafw/)
-- [Bogdan Burlacu](https://heal.heuristiclab.com/team/burlacu)
-- [Stephen Kelly](http://creativealgorithms.ca/)
-- [Alexander Lalejini](https://lalejini.com)
+
+- [Yuri Cossich Lavinas](yurilavinas.github.io)
 - [Fabricio Olivetti de França](https://folivetti.github.io/)
+- [Anselmo Pontes]()
+
 
 ### Information for Speakers and Authors
 
@@ -66,7 +66,7 @@ See the restaurant page for information on local restaurants for informal meetin
 ### Social Media
 
 - An invitation-only [Slack channel](http://gptp-workshops.slack.com) has been set up for simplifying and consolidating shared and private communication among participants and organizers.
-- Workshop hashtag: `#gptp2025`
+<!-- - Workshop hashtag: `#gptp2025`
 
 <!-- ### Food
 
