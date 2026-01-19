@@ -65,7 +65,7 @@ See the restaurant page for information on local restaurants for informal meetin
 
 ### Social Media
 
-- An invitation-only [Slack channel](http://gptp-workshops.slack.com) has been set up for simplifying and consolidating shared and private communication among participants and organizers.
+- An invitation-only [Slack channel]() will be been set up for simplifying and consolidating shared and private communication among participants and organizers.
 <!-- - Workshop hashtag: `#gptp2025`
 
 <!-- ### Food
@@ -76,7 +76,7 @@ Please let us know if you have any dietary restrictions for catered meals. -->
 
 ### Transportation
 
-Flights can be scheduled to the [Detroit Metro Airport (DTW)](https://www.metroairport.com/) or the [Capital Region International Airport (LAN)](https://www.flylansing.com/) in Lansing.
+<!-- Flights can be scheduled to the [Detroit Metro Airport (DTW)](https://www.metroairport.com/) or the [Capital Region International Airport (LAN)](https://www.flylansing.com/) in Lansing.
 
 From Detroit, the [Michigan Flyer/AirRide shuttle](https://www.michiganflyer.com/) can be arranged, which is an affordable and convenient mode of transportation to Michigan State. Travel time on the bus is about 1 hour. Alternatively, you might want to rent a car at DTW.
 
@@ -88,8 +88,8 @@ There is very little chance of street parking on weekdays on the University camp
 
 ### Sponsors
 
-[![Evolved analytics logo](logos/evolved-analytics-logo.png){:width="250"}](https://evolved-analytics.com/)
-<br/>
+<!--[![Evolved analytics logo](logos/evolved-analytics-logo.png){:width="250"}](https://evolved-analytics.com/)
+<br/> --->
 
 ![Autogenetics logo](logos/autogenetics_logo_two_color.png){:width="250"}
 <br/>
