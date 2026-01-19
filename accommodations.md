@@ -4,7 +4,7 @@ year: 2026
 ---
 dormir na praia
 
-<!--# Accommodations
+<!-- # Accommodations
 
 ### Kellogg Hotel and Convention Center
 
