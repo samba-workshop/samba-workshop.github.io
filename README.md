@@ -2,4 +2,4 @@
 
 Jekyll website for the workshop series.
 
-Visit the workshop website at http://gptp-workshop.com.
+Visit the workshop website at samba-workshop.github.io
