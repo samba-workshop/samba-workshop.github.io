@@ -2,8 +2,9 @@
 layout: default
 year: 2025
 ---
+dormir na praia
 
-# Accommodations
+<!--# Accommodations
 
 ### Kellogg Hotel and Convention Center
 
