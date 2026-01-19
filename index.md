@@ -66,7 +66,7 @@ See the restaurant page for information on local restaurants for informal meetin
 ### Social Media
 
 - An invitation-only [Slack channel]() will be been set up for simplifying and consolidating shared and private communication among participants and organizers.
-<!-- - Workshop hashtag: `#gptp2025`
+
 
 <!-- ### Food
 
