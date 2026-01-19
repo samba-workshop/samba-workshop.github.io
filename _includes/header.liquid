@@ -1,5 +1,5 @@
 {% if page.year %}
-  {% assign year = "gptp" | append: page.year %}
+  {% assign year = "samba" | append: page.year %}
 {% else %}
   {% assign year = "default" %}
 {% endif %}
@@ -20,7 +20,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="index.html">
-          GPTP
+          SAMBA
           {% if page.roman %}
             {{ page.roman }}
           {% elsif site.data.info.workshop[year].roman %}
