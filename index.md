@@ -3,7 +3,7 @@ layout: default
 year: 2026
 ---
 
-Symbolic Artificial Intelligence and Machine Learning in Baixada Santista (SAMBA) is a small, invitation-only workshop.
+**S**ymbolic **A**rtificial Intelligence and **M**achine Learning in **Ba**ixada Santista (SAMBA) is a small, invitation-only workshop.
 This year's SAMBA will be hosted by University of ABC, SP on October.
 
 ### Important Dates
