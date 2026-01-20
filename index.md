@@ -3,7 +3,7 @@ layout: default
 year: 2026
 ---
 
-Symbolic Regression and Machine Learning in Baixada Santista (SAMBA) is a small, invitation-only workshop.
+Symbolic Artificial Intelligence and Machine Learning in Baixada Santista (SAMBA) is a small, invitation-only workshop.
 This year's SAMBA will be hosted by University of ABC, SP on October.
 
 ### Important Dates
