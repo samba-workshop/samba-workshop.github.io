@@ -6,6 +6,12 @@ year: 2026
 **S**ymbolic **A**rtificial Intelligence and **M**achine Learning in **Ba**ixada Santista (SAMBA) is a small, invitation-only workshop.
 This year's SAMBA will be hosted by University of ABC, SP on October.
 
+SAMBA is an international scientific meeting that brings together Brazilian and international universities, research centers, and companies working in symbolic AI & ML. It provides a focused forum for exchanging and discussing state-of-the-art techniques and emerging ideas, while highlighting real-world, industry-driven challenges. 
+
+SAMBA matters because modern scientific knowledge depends on rigorous, transparent methods: formulating clear hypotheses, collecting and curating data, and modeling phenomena using mathematical and symbolic representations in an iterative process of analysis and refinement. Understanding the AI models is important to validate models and to gain deeper insight into the domain being studied.
+
+
+
 ### Important Dates
 
 <!-- - **May 15, 2024:** Deadline for draft versions of chapters (please use this [template](http://gptp-workshop.com/GPTPChapterTemplate2024.zip)) -->
