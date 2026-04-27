@@ -3,20 +3,23 @@ layout: default
 year: 2026
 ---
 
-**S**ymbolic **A**rtificial Intelligence and **M**achine Learning in **Ba**ixada Santista (SAMBA) is a small, invitation-only workshop.
-This year's SAMBA will be hosted by University of ABC, SP, Brazil, on 11-13, Novembre, 2026.
+**S**ymbolic **A**rtificial Intelligence and **M**achine Learning in **Ba**ixada Santista (SAMBA) is an international scientific meeting that brings together Brazilian and international universities, research centers, and companies working in symbolic AI & ML. It provides a focused forum for exchanging and discussing state-of-the-art techniques and emerging ideas, while highlighting real-world, industry-driven challenges. 
+
+The first edition of SAMBA will be co-organized by Federal University of ABC and Toulouse Capitole University, on 11-13, November, 2026 at SESC-Santos in the wonderful city of Santos-SP, Brazil.
 
 SAMBA is an international scientific meeting that brings together Brazilian and international universities, research centers, and companies working in symbolic AI & ML. It provides a focused forum for exchanging and discussing state-of-the-art techniques and emerging ideas, while highlighting real-world, industry-driven challenges. 
 
 SAMBA matters because modern scientific knowledge depends on rigorous, transparent methods: formulating clear hypotheses, collecting and curating data, and modeling phenomena using mathematical and symbolic representations in an iterative process of analysis and refinement. Understanding the AI models is important to validate models and to gain deeper insight into the domain being studied.
 
-
+The workshop will host presentations of invited speakers and the attendance will be open to the general public free of charge.
 
 ### Important Dates
 
 <!-- - **May 15, 2024:** Deadline for draft versions of chapters (please use this [template](http://gptp-workshop.com/GPTPChapterTemplate2024.zip)) -->
 <!-- - **June 05-07, 2025:** Keynotes, presentations, and discussions
 <!-- - **August 1, 2024:** Deadline for chapters (please use this [template](http://gptp-workshop.com/GPTPChapterTemplate2024.zip)) -->
+
+**11-13 November:** Workshop
 
 More important dates coming soon!
 
@@ -51,8 +54,7 @@ Additionally, a list of bed-and-breakfast inns, hotels and motels is provided. T
 -->
 
 
-### Organizers for GPTP
-
+### Organizers
 (alphabetical order)
 
 
@@ -61,13 +63,11 @@ Additionally, a list of bed-and-breakfast inns, hotels and motels is provided. T
 - [Anselmo Pontes]()
 
 
-### Information for Speakers and Authors
+### Information for Speakers
 
-See the [contributions page](contributions.html) for information on preparing presentations and publications, and the [schedule page](schedule.html) for the detailed workshop schedule.
+See the [contributions page](contributions.html) for information on preparing presentations, and the [schedule page](schedule.html) for the detailed workshop schedule.
 
 If you need an official invitation letter for any reason, contact us (on slack or via email), and we can send you one. Please include all of the organizers when you do to make sure that we see your message quickly!
-
-See the restaurant page for information on local restaurants for informal meetings in the evening.
 
 ### Social Media
 
@@ -79,7 +79,7 @@ See the restaurant page for information on local restaurants for informal meetin
 A light breakfast of pastries, fresh fruit, meats, cream cheese, yoghurt and coffee will be provided each day of the workshop. Mid-day, a lunch will be provided on-site. After the last session each day, attendees typically self-organize for visits to local restaurants.
 Additionally, at the evening of the first day of the workshop, all attendees will be invited for dinner at the conference location.
 Please let us know if you have any dietary restrictions for catered meals. -->
-
+<!--
 ### Transportation
 
 <!-- Flights can be scheduled to the [Detroit Metro Airport (DTW)](https://www.metroairport.com/) or the [Capital Region International Airport (LAN)](https://www.flylansing.com/) in Lansing.
