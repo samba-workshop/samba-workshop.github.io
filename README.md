@@ -1,4 +1,4 @@
-# gptp-workshop.github.io
+# samba-workshop.github.io
 
 Jekyll website for the workshop series.
 
