@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="SAMBA Workshop Logo">
+  <title>SAMBA Workshop Logo</title>
+  <defs>
+    <!--
+      Azulejo 101010 tile pattern:
+        1 = blue tile  (#0B3D91)
+        0 = white tile (#FFFFFF)
+      Each 20×20 unit represents one "bit-pair" row:
+        Row 1:  1(blue)  0(white)
+        Row 2:  0(white) 1(blue)
+      Gold dots on blue tiles echo the Santos azulejo bead accent.
+    -->
+    <pattern id="azulejo" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <!-- row 1 col 1 → 1 (blue) -->
+      <rect x="0"  y="0"  width="10" height="10" fill="#0B3D91"/>
+      <!-- row 1 col 2 → 0 (white) -->
+      <rect x="10" y="0"  width="10" height="10" fill="#FFFFFF"/>
+      <!-- row 2 col 1 → 0 (white) -->
+      <rect x="0"  y="10" width="10" height="10" fill="#FFFFFF"/>
+      <!-- row 2 col 2 → 1 (blue) -->
+      <rect x="10" y="10" width="10" height="10" fill="#0B3D91"/>
+      <!-- Azulejo gold-dot accent on each "1" tile -->
+      <circle cx="5"  cy="5"  r="2" fill="#D4A017"/>
+      <circle cx="15" cy="15" r="2" fill="#D4A017"/>
+    </pattern>
+  </defs>
+
+  <!-- Outer tile-pattern border (full 120×120) -->
+  <rect width="120" height="120" fill="url(#azulejo)"/>
+
+  <!-- Central panel inset 20 px each side (80×80) -->
+  <rect x="20" y="20" width="80" height="80" fill="#0B3D91"/>
+
+  <!-- Gold frame on central panel -->
+  <rect x="20" y="20" width="80" height="80" fill="none" stroke="#D4A017" stroke-width="1.5"/>
+
+  <!-- "SAMBA" wordmark -->
+  <text x="60" y="60"
+        text-anchor="middle" dominant-baseline="middle"
+        font-family="Georgia,'Times New Roman',serif"
+        font-size="22" font-weight="bold"
+        fill="#FFFFFF" letter-spacing="2">SAMBA</text>
+
+  <!-- Binary 101010 accent — the mureta rhythm -->
+  <text x="60" y="79"
+        text-anchor="middle" dominant-baseline="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="9" fill="#D4A017" letter-spacing="3">1 0 1 0 1 0</text>
+</svg>
