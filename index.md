@@ -56,7 +56,7 @@ Additionally, a list of bed-and-breakfast inns, hotels and motels is provided. T
 (alphabetical order)
 
 
-- [Yuri Cossich Lavinas](yurilavinas.github.io)
+- [Yuri Cossich Lavinas](https://yurilavinas.github.io)
 - [Fabricio Olivetti de França](https://folivetti.github.io/)
 - [Anselmo Pontes]()
 
