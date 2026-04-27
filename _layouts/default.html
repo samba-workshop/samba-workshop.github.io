@@ -1,75 +1,111 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  <!--<title>GPTP {{page.roman}}</title>-->
-  <title>SAMBA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SAMBA – Symbolic AI &amp; ML in Baixada Santista</title>
 
-  <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js"
+          integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="
+          crossorigin="anonymous"></script>
 
-  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+          type="text/javascript"></script>
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- Google Fonts: Playfair Display (headings) · Inter (body) · Space Mono (code/dateline) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;600&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <!-- Bootstrap 3 -->
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
 
   <link rel="stylesheet" type="text/css" href="/css/site.css">
 </head>
-  <body>
-    {% include header.liquid %}
-    {% if page.year %}
-      {% assign year = "samba" | append: page.year %}
-    {% else %}
-      {% assign year = "default" %}
-    {% endif %}
-    <div class="container">
-      <div class="col-sm-12">
-        <h1><a href="index.html">
-          Symbolic AI and ML in Baixada Santista
-          {% if page.roman %}
-            {{ page.roman }}
-          {% elsif site.data.info.workshop[year].roman %}
-            {{ site.data.info.workshop[year].roman }}
-          {% endif %}
-        </a></h1>
-        <div class="dateline">
-          {% if page.venue %}
-            {{ page.venue }} •
-          {% elsif site.data.info.workshop[year].venue %}
-            {{ site.data.info.workshop[year].venue }} •
-          {% endif %}
-          {% if page.dates %}
-            {{ page.dates }}
-          {% elsif site.data.info.workshop[year].dates %}
-            {{ site.data.info.workshop[year].dates }}
-          {% endif %}
-          <hr /></div>
-        <div class="col-sm-12">
-        {{ content }}
-        </div>
+<body>
+  {% include header.liquid %}
 
+  {% if page.year %}
+    {% assign year = "samba" | append: page.year %}
+  {% else %}
+    {% assign year = "default" %}
+  {% endif %}
+
+  <!-- ── Hero Banner ─────────────────────────────────────────── -->
+  <div class="samba-hero">
+    <div class="tile-band"></div>
+    <div class="hero-inner">
+      <div class="container">
+        <div class="hero-flex">
+
+          <a href="/index.html" class="hero-logo-link">
+            <img src="/logos/samba-logo.svg" alt="SAMBA logo" class="hero-logo-img">
+          </a>
+
+          <div class="hero-title-block">
+            <h1 class="hero-title">
+              <a href="/index.html">
+                Symbolic AI &amp; ML in Baixada Santista
+                {% if page.roman %}
+                  {{ page.roman }}
+                {% elsif site.data.info.workshop[year].roman %}
+                  {{ site.data.info.workshop[year].roman }}
+                {% endif %}
+              </a>
+            </h1>
+            <div class="hero-dateline">
+              {% if page.venue %}
+                {{ page.venue }} &bull;
+              {% elsif site.data.info.workshop[year].venue %}
+                {{ site.data.info.workshop[year].venue }} &bull;
+              {% endif %}
+              {% if page.dates %}
+                {{ page.dates }}
+              {% elsif site.data.info.workshop[year].dates %}
+                {{ site.data.info.workshop[year].dates }}
+              {% endif %}
+            </div>
+            <div class="hero-binary" aria-hidden="true">
+              1&thinsp;0&thinsp;1&thinsp;0&thinsp;1&thinsp;0&ensp;
+              1&thinsp;0&thinsp;1&thinsp;0&thinsp;1&thinsp;0&ensp;
+              1&thinsp;0&thinsp;1&thinsp;0&thinsp;1&thinsp;0
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
+    <div class="tile-band"></div>
+  </div>
+  <!-- ── End Hero ─────────────────────────────────────────────── -->
 
-    {% include footer.liquid %}
+  <!-- ── Page content ─────────────────────────────────────────── -->
+  <main class="samba-main">
+    <div class="container">
+      <div class="content-wrapper">
+        {{ content }}
+      </div>
+    </div>
+  </main>
 
+  {% include footer.liquid %}
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+          integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+          crossorigin="anonymous"></script>
 
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-75388819-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-  </body>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-75388819-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
 </html>
+
