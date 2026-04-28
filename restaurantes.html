@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santos Gastronomy Guide - SAMBA 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; }
+        .bg-food-pattern {
+            background-color: #1e293b; /* slate-800 */
+            background-image: radial-gradient(circle at center, rgba(245, 158, 11, 0.15) 0%, transparent 100%),
+                              url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 5a2 2 0 0 1 2 2v4a2 2 0 1 1-4 0V7a2 2 0 0 1 2-2zm0 44a2 2 0 0 1 2 2v4a2 2 0 1 1-4 0v-4a2 2 0 0 1 2-2zM5 30a2 2 0 0 1 2-2h4a2 2 0 1 1 0 4H7a2 2 0 0 1-2-2zm44 0a2 2 0 0 1 2-2h4a2 2 0 1 1 0 4h-4a2 2 0 0 1-2-2z' fill='%23ffffff' fill-opacity='0.03' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+        .restaurant-link {
+            color: #0284c7; /* sky-600 */
+            text-decoration: underline;
+            text-decoration-color: #7dd3fc; /* sky-300 */
+            text-underline-offset: 4px;
+            transition: all 0.2s ease-in-out;
+        }
+        .restaurant-link:hover {
+            color: #0369a1; /* sky-700 */
+            text-decoration-color: #0284c7;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <nav class="fixed w-full z-50 top-0 bg-white/95 backdrop-blur shadow-sm border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="#" class="flex-shrink-0 flex items-center gap-3">
+                    <span class="font-extrabold text-2xl tracking-tight text-slate-900">Santos<span class="text-amber-600">Eats</span></span>
+                </a>
+                <div class="hidden md:flex space-x-6 lg:space-x-8">
+                    <a href="#sesc-area" class="text-slate-600 hover:text-amber-600 transition font-semibold">SESC & Nearby</a>
+                    <a href="#made" class="text-slate-600 hover:text-amber-600 transition font-semibold">Madê</a>
+                    <a href="#tocaia" class="text-slate-600 hover:text-amber-600 transition font-semibold">Tocaia</a>
+                    <a href="#banana" class="text-slate-600 hover:text-amber-600 transition font-semibold">Banana Café</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative pt-32 pb-24 lg:pt-40 lg:pb-32 bg-food-pattern overflow-hidden text-center">
+        <div class="max-w-4xl mx-auto px-4 relative z-10">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight mb-6">
+                Culinary Experiences in <br/>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-500">Baixada Santista</span>
+            </h1>
+            <p class="text-xl text-amber-100 font-medium max-w-2xl mx-auto">
+                A curated selection of Santos' finest dining, from the convenience of our venue to vibrant gastrobars and award-winning contemporary coastal cuisine.
+            </p>
+        </div>
+    </section>
+
+    <main class="py-16 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24">
+
+            <section id="sesc-area" class="scroll-mt-24">
+                <div class="flex items-center gap-4 mb-8 border-b border-slate-200 pb-4">
+                    <h2 class="text-3xl font-bold text-slate-900">SESC-Santos & Nearby Options</h2>
+                    <span class="px-3 py-1 bg-slate-200 text-slate-800 text-sm font-bold rounded-full">Convenience / Casual</span>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-6 text-slate-600 leading-relaxed text-lg">
+                        <p class="font-semibold text-sky-600 flex items-center gap-2">
+                            📍 <a href="https://maps.google.com/?q=Av.+Ana+Costa,+473+-+Gonzaga,+Santos+-+SP" target="_blank" class="restaurant-link">Rua Conselheiro Ribas, 136 - Aparecida</a>
+                        </p>
+                        <p>For days packed with workshop sessions, the <strong>Restaurante Sesc Santos</strong> located right inside the venue offers a highly practical and affordable cafeteria-style lunch. It provides balanced, traditional Brazilian day-to-day meals without needing to travel.</p>
+                        <p><strong>Exploring the Neighborhood:</strong> If you want to step out for a quick break, the Aparecida neighborhood is highly walkable. Just a few blocks away lies the Praiamar Shopping complex, which features a vast food court and several premium chain restaurants, perfect for a fast, reliable meal before heading back to the afternoon sessions.</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <img src="sesc.jpg" alt="Casual dining" class="w-full h-64 object-cover rounded-3xl shadow-md border border-slate-200 mt-8">
+                        <img src="praiamar.jpg" alt="Coffee and quick bites" class="w-full h-64 object-cover rounded-3xl shadow-md border border-slate-200">
+                    </div>
+                </div>
+            </section>
+
+            <section id="made" class="scroll-mt-24">
+                <div class="flex items-center gap-4 mb-8 border-b border-slate-200 pb-4">
+                    <h2 class="text-3xl font-bold text-slate-900">Madê Cozinha Autoral</h2>
+                    <span class="px-3 py-1 bg-amber-100 text-amber-800 text-sm font-bold rounded-full">Contemporary Seafood</span>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 lg:order-1">
+                        <img src="made.jpg" alt="Contemporary plated seafood" class="w-full h-full object-cover rounded-3xl shadow-lg border border-slate-200">
+                    </div>
+                    <div class="order-1 lg:order-2 space-y-6 text-slate-600 leading-relaxed text-lg">
+                        <p class="font-semibold text-sky-600 flex items-center gap-2">
+                            📍 <a href="https://www.google.com/maps/place/R.+Afonso+Celso+de+Paula+Lima,+55+-+Ponta+da+Praia,+Santos+-+SP" target="_blank" class="restaurant-link">R. Afonso Celso de Paula Lima, 55 - Ponta da Praia</a>
+                        </p>
+                        <p>Recognized among the 100 Best Restaurants in Brazil, Madê is an intimate, award-winning culinary destination helmed by Chef Dário. The menu is a celebration of the sea, where everything from fish to octopus is expertly prepared over an open flame.</p>
+                        <p><strong>What to order:</strong> The 13-course tasting menu is the best way to understand the chef's vision. Expect innovative flavor profiles that elevate the fresh daily catch, often incorporating earthy mushroom bases or bright, subtle cachaça glazes to build complex, unforgettable dishes. Their dessert menu is equally spectacular.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="tocaia" class="scroll-mt-24">
+                <div class="flex items-center gap-4 mb-8 border-b border-slate-200 pb-4">
+                    <h2 class="text-3xl font-bold text-slate-900">Tocaia Bar e Restaurante</h2>
+                    <span class="px-3 py-1 bg-emerald-100 text-emerald-800 text-sm font-bold rounded-full">Iberian Contemporary</span>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-6 text-slate-600 leading-relaxed text-lg">
+                        <p class="font-semibold text-sky-600 flex items-center gap-2">
+                            📍 <a href="https://maps.google.com/?q=Av.+Ana+Costa,+555+-+Gonzaga,+Santos+-+SP" target="_blank" class="restaurant-link">Av. Rei Alberto I, 280 - Ponta da Praia</a>
+                        </p>
+                        <p>A brilliant new addition to the Ponta da Praia neighborhood, Tocaia combines the convivial culture of Spanish and Portuguese tapas bars with upscale modern gastronomy. The beautifully designed space is meant for lingering, making it ideal for evening networking or relaxing after the workshop.</p>
+                        <p><strong>What to order:</strong> Tocaia thrives on shared plates. Explore their Iberian-inspired tapas paired with their extensive menu of classic and authorial cocktails. Look out for their signature <em>Rabanada</em> with vanilla ice cream if you have a sweet tooth to end the night.</p>
+                    </div>
+                    <div class="grid grid-cols-1 gap-6">
+                        <img src="tocaia.jpg" alt="Iberian tapas and cocktails" class="w-full h-80 object-cover rounded-3xl shadow-md border border-slate-200">
+                    </div>
+                </div>
+            </section>
+
+            <section id="banana" class="scroll-mt-24">
+                <div class="flex items-center gap-4 mb-8 border-b border-slate-200 pb-4">
+                    <h2 class="text-3xl font-bold text-slate-900">Banana Café</h2>
+                    <span class="px-3 py-1 bg-rose-100 text-rose-800 text-sm font-bold rounded-full">Vibrant Gastrobar</span>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 lg:order-1">
+                        <img src="banana_cafe.jpg" alt="Lively gastrobar atmosphere" class="w-full h-96 object-cover rounded-3xl shadow-lg border border-slate-200">
+                    </div>
+                    <div class="order-1 lg:order-2 space-y-6 text-slate-600 leading-relaxed text-lg">
+                        <p class="font-semibold text-sky-600 flex items-center gap-2">
+                            📍 <a href="https://maps.google.com/?q=Av.+Rei+Alberto+I,+177+-+Ponta+da+Praia,+Santos+-+SP" target="_blank" class="restaurant-link">Gonzaga</a>
+                        </p>
+                        <p>Bringing massive energy to the Gonzaga district, Banana Café is a sprawling gastrobar featuring a beautiful vertical garden, a charming pergola, and plenty of outdoor seating. It’s the perfect spot to enjoy Santos' warm coastal evenings.</p>
+                        <p><strong>What to order:</strong> The menu is packed with satisfying comfort classics. Start with the rich Rib Croquettes (Croquete de Costela) or the crispy Breaded Brie. For the main event, they serve heavy, perfectly executed plates of Filet Mignon à Parmegiana loaded with melted cheese, accompanied by crispy rustic potatoes.</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="bg-slate-900 py-12 border-t border-slate-800 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-slate-400 font-medium">© 2026 SantosEats Gastronomy Guide. Handcrafted for SAMBA 2026 attendees.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
