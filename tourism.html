@@ -27,6 +27,43 @@
         }
     </style>
 </head>
+<header class="pt-24 pb-12 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row gap-8 items-start">
+
+            <!-- Left Column: Vertical Sunset Photo -->
+            <div class="w-full md:w-1/3">
+                <img src="sunset.jpg" alt="Santos Sunset Reflection" class="w-full h-auto rounded-3xl shadow-sm border border-slate-100">
+            </div>
+
+            <!-- Right Column: Two Horizontal Photos + Text -->
+            <div class="w-full md:w-2/3 space-y-8">
+
+                <!-- Photos Top Row -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <img src="mureta.jpg" alt="View through the Historic Wall" class="w-full h-auto rounded-3xl shadow-sm border border-slate-100">
+                    <img src="fortress.png" alt="Preserved Coastline" class="w-full h-auto rounded-3xl shadow-sm border border-slate-100">
+                </div>
+
+                <!-- Text Content -->
+                <div class="pt-4">
+                    <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight mb-4">
+                        Explore <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">Baixada Santista</span>
+                    </h1>
+                    <p class="text-xl text-slate-600 font-medium max-w-xl">
+                        A visual journey through the mountains and vibrant coastal waters of the Atlantic Forest.
+                    </p>
+                </div>
+
+                <!-- Bonus: Adding the lighthouse photo as a wide accent below the text -->
+                <div class="pt-4">
+                    <img src="santos.jpg" alt="Lighthouse and Outrigger Canoes" class="w-full h-48 object-cover rounded-3xl shadow-sm border border-slate-100 opacity-90">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
 <body class="bg-slate-50 text-slate-800 antialiased">
 
     <nav class="fixed w-full z-50 top-0 bg-white/95 backdrop-blur shadow-sm border-b border-slate-200">
@@ -37,83 +74,46 @@
                 </a>
                 <div class="hidden md:flex space-x-6 lg:space-x-8">
                     <a href="#santos" class="text-slate-600 hover:text-emerald-600 transition font-semibold">Santos City</a>
-                    <a href="#bertioga" class="text-slate-600 hover:text-emerald-600 transition font-semibold">Bertioga</a>
                     <a href="#serra" class="text-slate-600 hover:text-emerald-600 transition font-semibold">Serra do Mar</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    <section class="relative pt-32 pb-24 lg:pt-40 lg:pb-32 bg-hero-pattern overflow-hidden text-center">
-        <div class="max-w-4xl mx-auto px-4 relative z-10">
-            <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight mb-6">
-                Discover the Magic of the <br/>
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-500">Brazilian Coast</span>
-            </h1>
-            <p class="text-xl text-emerald-100 font-medium">
-                Your ultimate guide to Santos, Bertioga, and the Atlantic Forest.
-            </p>
-        </div>
-    </section>
 
-    <section id="santos" class="py-24 bg-white scroll-mt-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold text-slate-900 mb-10 border-l-4 border-emerald-500 pl-4">Santos: History & Sea</h2>
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
-                <div class="space-y-6 text-slate-600 leading-relaxed">
-                    <p>Santos seamlessly blends a rich historical legacy with a dynamic coastal lifestyle.</p>
-                    <ul class="list-disc pl-5 space-y-3">
-                        <li>The <a href="https://www.google.com/maps/search/Monte+Serrat+Funicular+Santos" target="_blank" class="attraction-link">Monte Serrat Funicular Elevator</a> is a historic railway connecting downtown Santos with Monte Serrat.</li>
-                        <li>At the summit, a lookout point offers panoramic views of the city and port.</li>
-                        <li>The <a href="https://www.google.com/maps/search/Museu+Pele+Santos" target="_blank" class="attraction-link">Pelé Museum</a> houses a collection of memorabilia, trophies, and photographs documenting the famous football player's life and career.</li>
-                        <li>The <a href="https://www.google.com/maps/search/Bonde+Turistico+Santos" target="_blank" class="attraction-link">Santos Tourist Tram Line</a> provides a nostalgic ride passing by significant sights in the historic city center.</li>
-                        <li>The <a href="https://www.google.com/maps/search/Mercado+de+Peixes+Santos" target="_blank" class="attraction-link">Fish Market (Mercado de Peixes)</a>, opened in its new home in 2020, is a traditional spot to explore the daily coastal catch.</li>
-                        <li>The <a href="https://www.google.com/maps/search/Pinacoteca+Benedicto+Calixto+Santos" target="_blank" class="attraction-link">Pinacoteca Benedicto Calixto</a> exhibits seventy works by the important Brazilian painter in a stunning white mansion right on the beach.</li>
-                    </ul>
-                    <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mt-6">
-                        <p class="text-slate-700"><strong>📸 Local Tip:</strong> For dining, skip the basics and seek out bistros that craft their dishes with robust regional ingredients, such as utilizing local cachaça to glaze seafood and pairing it with rich mushroom reductions.</p>
-                    </div>
+    <!-- Replace the existing #santos section with this expanded version -->
+<section id="santos" class="py-24 bg-white scroll-mt-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-slate-900 mb-10 border-l-4 border-emerald-500 pl-4">Santos: History & Sea</h2>
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6 text-slate-600 leading-relaxed">
+                <p>Santos seamlessly blends a rich historical legacy with a dynamic coastal lifestyle, offering everything from the birthplace of the global coffee trade to the world's longest beachfront garden.</p>
+                <ul class="list-disc pl-5 space-y-3">
+                    <li>The <a href="https://www.google.com/maps/search/Coffee+Museum+Santos" target="_blank" class="attraction-link">Coffee Museum (Museu do Café)</a>, housed in the stunning former Coffee Stock Exchange, explores the bean's massive impact on Brazilian history.</li>
+                    <li>The <a href="https://www.google.com/maps/search/Monte+Serrat+Funicular+Santos" target="_blank" class="attraction-link">Monte Serrat Funicular Elevator</a> is a historic railway connecting downtown Santos with Monte Serrat, offering panoramic views.</li>
+                    <li>The <a href="https://www.google.com/maps/search/Museu+Pele+Santos" target="_blank" class="attraction-link">Pelé Museum</a> houses trophies and memorabilia documenting the "King of Football's" legendary career at Santos FC.</li>
+                    <li>The <a href="https://www.google.com/maps/search/Santos+Beach+Gardens" target="_blank" class="attraction-link">Santos Beach Gardens</a> stretch for 7km; it is recognized by the Guinness World Records as the largest beachfront garden in the world.</li>
+                    <li>The <a href="https://www.google.com/maps/search/Maritime+Museum+Santos" target="_blank" class="attraction-link">Maritime Museum</a> offers a deep dive into nautical history, featuring shipwrecks, diving equipment, and naval artifacts.</li>
+                    <li>The <a href="https://www.google.com/maps/search/Bonde+Turistico+Santos" target="_blank" class="attraction-link">Santos Tourist Tram Line</a> provides a nostalgic ride passing by significant sights in the historic city center.</li>
+                    <li>The <a href="https://www.google.com/maps/search/Pinacoteca+Benedicto+Calixto+Santos" target="_blank" class="attraction-link">Pinacoteca Benedicto Calixto</a> exhibits works by the master painter in a stunning white mansion right on the beach.</li>
+                </ul>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mt-6">
+                    <p class="text-slate-700"><strong>📸 Local Tip:</strong> After exploring the museum, head to the ground-floor Cafeteria do Museu to enjoy a gourmet tasting of award-winning Brazilian grains. For those panoramic port views, take the nearby Monte Serrat Funicular to the mountain's summit.</p>
                 </div>
-                <div class="grid grid-cols-1 gap-6">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ROGERIO_CASSIMIRO_jardins_SANTOS_SP_%2826033615347%29.jpg/960px-ROGERIO_CASSIMIRO_jardins_SANTOS_SP_%2826033615347%29.jpg"  alt="Santos Beach Garden" class="w-full h-72 object-cover rounded-3xl shadow-lg border border-slate-200 transition-transform hover:scale-[1.02]">
-                    <div class="grid grid-cols-2 gap-6">
-                        <img src="santos.jpg" onerror="this.src='https://picsum.photos/seed/santostram/400/300'" alt="Historic Tram" class="w-full h-48 object-cover rounded-2xl shadow-md border border-slate-200">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bonde_de_Santos.jpg/960px-Bonde_de_Santos.jpg" onerror="this.src='https://picsum.photos/seed/santosport/400/300'" alt="Museu Pelé" class="w-full h-48 object-cover rounded-2xl shadow-md border border-slate-200">
-                    </div>
+            </div>
+            <div class="grid grid-cols-1 gap-6">
+                <!-- Main Image: Beach Gardens -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ROGERIO_CASSIMIRO_jardins_SANTOS_SP_%2826033615347%29.jpg/960px-ROGERIO_CASSIMIRO_jardins_SANTOS_SP_%2826033615347%29.jpg"  alt="Santos Beach Garden" class="w-full h-72 object-cover rounded-3xl shadow-lg border border-slate-200 transition-transform hover:scale-[1.02]">
+                <div class="grid grid-cols-2 gap-6">
+                    <!-- Secondary Image: Coffee Museum -->
+                    <img src="santos.jpg" onerror="this.src='https://picsum.photos/seed/santostram/400/300'" alt="Historic Tram" class="w-full h-48 object-cover rounded-2xl shadow-md border border-slate-200">
+                    <!-- Tertiary Image: Historic Tram -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bonde_de_Santos.jpg/960px-Bonde_de_Santos.jpg" onerror="this.src='https://picsum.photos/seed/santostram/400/300'" alt="Historic Tram" class="w-full h-48 object-cover rounded-2xl shadow-md border border-slate-200">
                 </div>
             </div>
         </div>
-    </section>
-
-    <section id="bertioga" class="py-24 bg-slate-50 scroll-mt-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold text-slate-900 mb-10 border-l-4 border-emerald-500 pl-4">Bertioga: Pristine Beaches & Heritage: where the sea mountain meets the ocean</h2>
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
-                <div class="order-2 lg:order-1">
-                    <img src="bertioga.png" onerror="this.src='https://picsum.photos/seed/bertiogacoast/800/600'" alt="Forte de São João and Coastline" class="w-full h-[250px] object-cover rounded-3xl shadow-lg border border-slate-200">
-                    <img src="bertioga2.png" onerror="this.src='https://picsum.photos/seed/bertiogacoast/800/600'" alt="Forte de São João and Coastline" class="w-full h-[250px] object-cover rounded-3xl shadow-lg border border-slate-200">
-                </div>
-                <div class="order-1 lg:order-2 space-y-8">
-                    <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm">
-                        <h3 class="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2"><span>🏰</span> Historical Landmarks</h3>
-                        <p class="text-slate-600 mb-4"><a href="https://www.google.com/maps/search/Forte+Sao+Joao+Bertioga" target="_blank" class="attraction-link">Forte São João</a>, built in 1532, is one of the oldest fortresses in Brazil.</p>
-                        <p class="text-slate-600">It offers guided tours, preserved military architecture, and stunning views over the Bertioga Canal.</p>
-                    </div>
-
-                    <div class="space-y-4 text-slate-600 leading-relaxed">
-                        <h3 class="text-xl font-bold text-slate-900 mb-2 flex items-center gap-2"><span>🌊</span> Iconic Beaches</h3>
-                        <ul class="list-disc pl-5 space-y-3">
-                            <li><a href="https://www.google.com/maps/search/Praia+da+Enseada+Bertioga" target="_blank" class="attraction-link">Praia da Enseada</a> is a 12 km long beach known for its calm waters and family-friendly environment.</li>
-                            <li><a href="https://www.google.com/maps/search/Riviera+de+Sao+Lourenco" target="_blank" class="attraction-link">Riviera de São Lourenço</a> is an affluent, master-planned neighborhood with excellent tourist infrastructure surrounded by palm trees.</li>
-                            <li><a href="https://www.google.com/maps/search/Praia+de+Itaguare+Bertioga" target="_blank" class="attraction-link">Itaguaré Beach</a> is a semidesert beach completely surrounded by preserved rainforest, making it a spectacular location for photography and surfing.</li>
-                        </ul>
-                        <p class="mt-4 pt-4 border-t border-slate-200">If you're seeking breathtaking natural scenery, the juxtaposition of the Atlantic Forest mountains plunging into clear coastal waters here is truly spectacular.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    </div>
+</section>
     <section id="serra" class="py-24 bg-white scroll-mt-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-bold text-slate-900 mb-10 border-l-4 border-emerald-500 pl-4">Parque Estadual da Serra do Mar</h2>
